@@ -1,0 +1,42 @@
+.explore {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  outline: 3px solid blue;  
+}
+.title-explore {  
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+
+
+.collections {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 10px;
+  margin-bottom: 60px; 
+} 
+
+.tea {
+  display: inline-block;  
+}
+
+.tea img {
+  width: 200px;
+  height: 200px;
+  margin-right: 5px;
+  margin-top: 50px;
+}
+
+.tea-name {  
+font-size: 24px;
+font-weight: 400;
+line-height: 1.21;
+text-align: center;
+color: #151618;
+}
+
+

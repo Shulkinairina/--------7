@@ -1,0 +1,50 @@
+
+.prioritise {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0;
+  outline: 3px solid blue; 
+}
+
+.title-prioritise {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.21;
+  text-align: center;  
+}
+
+.conditions{
+  display: flex; 
+  justify-content: space-evenly; 
+  justify-items: center;
+  padding: 0;
+}
+
+.condition {
+  display: block;  
+  text-align: center;
+  justify-items: center; 
+}
+
+.first{  
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 10.85;
+  text-align: left;
+}
+
+.second{
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4x;
+  text-align: left;
+}
+
+
+.vector{
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+}

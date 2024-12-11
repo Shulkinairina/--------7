@@ -1,0 +1,15 @@
+.text{
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  outline: 3px solid blue;
+  display: flex;
+  justify-content: center;  
+  text-align: center;  
+  font-family: Cormorant;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.2;
+}
+

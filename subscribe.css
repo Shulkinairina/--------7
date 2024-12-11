@@ -1,0 +1,69 @@
+
+
+.subscribe {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  outline: 3px solid blue;  
+  background-size: auto;
+  background-color: #F7F2EA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-text {
+  display: flex;
+  flex-direction: column;  
+  width: 50%;
+  margin: 10px;
+}
+
+
+.title-want {
+  display: inline;
+  margin: 20px;  
+  font-family: Cormorant;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1,2px;
+  text-align: left;
+}
+
+.words{  
+  margin-bottom: 20px;  
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.form {
+  display: block;
+  width: 50%;
+  margin: 10px;
+}
+
+
+.join {
+  width: Hug (116px)px;
+  height: Hug (51px)px;
+  top: 198px;
+  left: 1284px;
+  padding: 12px 41px 12px 41px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  margin-right: 8px;
+}
+
+
+

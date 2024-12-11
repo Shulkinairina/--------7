@@ -1,0 +1,55 @@
+
+
+
+.top {  
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  outline: 3px solid blue;  
+  justify-content: space-between;
+  align-items: baseline;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  min-width: 80%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 60%;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;  
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.menu-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width:10%;
+}
+.Two {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.one {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
