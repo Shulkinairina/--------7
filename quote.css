@@ -1,8 +1,13 @@
-.text{
+
+.quote{
   max-width: 1240px;
   margin: 0 auto;
   padding: 50px 20px;
-  outline: 3px solid blue;
+  outline: 3px solid blue;  
+}
+
+
+.quote-text{  
   display: flex;
   justify-content: center;  
   text-align: center;  
@@ -12,4 +17,5 @@
   font-weight: 300;
   line-height: 1.2;
 }
+
 
