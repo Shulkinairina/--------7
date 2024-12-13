@@ -13,15 +13,16 @@
 
 
 .collections {
-  display: flex;
-  flex-wrap: wrap;
+  display: flex;  
+  justify-content: space-between;
   row-gap: 40px;
   column-gap: 10px;
   margin-bottom: 60px; 
 } 
 
 .tea {
-  display: inline-block;  
+  display:block;  
+  
 }
 
 .tea img {
