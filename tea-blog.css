@@ -1,8 +1,8 @@
 .tea-blog {
     max-width: 1240px;
-    margin: 0 auto;
-    padding: 50px 20px;
-    outline: 3px solid blue;
+    margin: 0 auto; /*по центру*/
+    padding: 50px 20px; /*padding 50px определяет, что границы блока будут по высоте много больше содержимого. т.е блок большой, а текст посередине*/
+    outline: 3px solid blue;/*потом убрать*/
 }
 
 .title-tea {
@@ -19,17 +19,18 @@
     flex-wrap: wrap;
     row-gap: 40px;
     column-gap: 58px;
-    margin-bottom: 60px; 
+    margin-bottom: 60px; /*добавляет отступ для следущего элеманта*/
 }
 
 .card {
     display: flex;
     column-gap: 20px;
+    /*flex-direction: column; расположить друг под другом */
     /* max-width: 300px; */
     /* 0 - отключ, 1 - вкл */
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 46%;
+    flex-grow: 1; /*карточка может увеличиваться*/
+    flex-shrink: 1; /*карточка может уменьшаться. если 0 то не может*/
+    flex-basis: 46%; /*сколько % от всего доступного места занимает карточка*/
 
     /* flex: 1 1 47%; */
 }
@@ -56,8 +57,10 @@
     font-size: 13px;
     font-weight: 300;
     line-height: 1.4;
-
-    flex: auto;
+    flex: auto; /*Растягивает элемент по блоку так, чтобы последующий элемент прижать книзу. Прописывать вместе с родителем -  
+    .card-info {
+        display: flex;
+        flex-direction: column;*/
 }
 
 .link {
@@ -74,12 +77,12 @@
     height: 10px;
     display: inline-block;
     margin-left: 8px;
-    background: url("./images/icon.svg") 100% / cover no-repeat;
+    background: url("./images/blog/icon.svg") 100% / cover no-repeat;
     transition: all .3s ease 0s;
 }
 
 .link:hover::after {
-    transform: translateX(5px);
+    transform: translateX(5px); /*чтобы стрелка дёргалась*/    
 }
 
 .view-all {
@@ -90,7 +93,7 @@
     text-align: center;
     margin: 0 auto;
     display: flex;
-    cursor: pointer;
+    cursor: pointer; /* "палец" при наведении курсора */
 }
 
 @media (max-width: 999.98px) {
@@ -99,7 +102,7 @@
         padding: 0 44px;
     }
 
-    /* 16th of November */
+    
     .card:nth-child(even) {
         margin-left: 80px;
     }
