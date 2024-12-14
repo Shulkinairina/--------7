@@ -1,15 +1,23 @@
 .footer {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 50px 20px;
-  outline: 3px solid blue;
+  padding: 20px;
+  outline: 3px solid blue;  
+  background-color: #F7F2EA;  
+}
+
+
+
+.info {
   display: flex;
   flex-wrap: wrap;
-  
-  background-color: #F7F2EA;
-  column-gap: 20px;
+  row-gap: 40px;
+  column-gap: 58px;
+  justify-content: space-between;
 }
-.products {
+
+
+.products {  
   width: 20%;
 }
 
@@ -23,7 +31,11 @@
 }
 
 
-.list-tea {
+.list-tea {  
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
   text-align: left;
 }
 
@@ -35,6 +47,7 @@
 
 .company {
   width: 20%;
+  
 }
 .company-name {
   font-size: 24px;
@@ -44,16 +57,24 @@
   margin-bottom: 10px;
 }
 .list-company {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
   text-align: left;
 }
 .company-item {
 }
 
 
-.quatation {
+.bottom-quatation {
   width: 20%;
+  display: flex;
+  flex-direction: column;
 }
-.quote {
+
+
+.quatation {
   padding: 30px;  
   font-size: 16px;
   font-style: italic;
@@ -63,7 +84,8 @@
 }
 
 
-.author-quote {
+.author-quatation {
+  padding-left: 30px;
   font-size: 12px;
   font-weight: 300;
   line-height: 1.4px;
@@ -83,11 +105,12 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 1.21;
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px;
 }
 
 .menu-contacts{
+  text-align: right;
 
 }
 
@@ -98,5 +121,5 @@
   justify-content: flex-end;
   align-self: flex-end;
   align-self: stretch;
-  width: 100%;
+  flex: auto;
 }
