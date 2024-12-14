@@ -3,7 +3,7 @@
 .picture {
   max-width: 1240px;
   min-height: 500px;
-  margin: 10px auto;
+  margin: auto;
   padding: 0px 20px;
   outline: 3px solid blue;
   background-image: url("./images/header/background.jpg");  
