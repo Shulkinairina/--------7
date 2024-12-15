@@ -18,7 +18,9 @@
 
 
 .products {  
-  width: 20%;
+  flex-grow: 1; /*карточка может увеличиваться*/
+  flex-shrink: 1; /*карточка может уменьшаться. если 0 то не может*/
+  flex-basis: 20%; /*сколько % от всего доступного места занимает карточка*/  
 }
 
 
@@ -39,16 +41,19 @@
   text-align: left;
 }
 
-
+/*
 .products-item {
   
 }
-
+*/
 
 .company {
-  width: 20%;
-  
+  flex-grow: 1; /*карточка может увеличиваться*/
+  flex-shrink: 1; /*карточка может уменьшаться. если 0 то не может*/
+  flex-basis: 20%; /*сколько % от всего доступного места занимает карточка*/  
 }
+
+
 .company-name {
   font-size: 24px;
   font-weight: 400;
@@ -56,6 +61,7 @@
   text-align: left;
   margin-bottom: 10px;
 }
+
 .list-company {
   font-family: Open Sans;
   font-size: 16px;
@@ -63,14 +69,17 @@
   line-height: 1.4;
   text-align: left;
 }
+/*
 .company-item {
 }
+*/
 
-
-.bottom-quatation {
-  width: 20%;
+.bottom-quatation { 
   display: flex;
   flex-direction: column;
+  flex-grow: 1; /*карточка может увеличиваться*/
+  flex-shrink: 1; /*карточка может уменьшаться. если 0 то не может*/
+  flex-basis: 20%; /*сколько % от всего доступного места занимает карточка*/
 }
 
 
@@ -94,7 +103,9 @@
 
 
 .contacts{
-  width: 20%;
+  flex-grow: 1; /*карточка может увеличиваться*/
+  flex-shrink: 1; /*карточка может уменьшаться. если 0 то не может*/
+  flex-basis: 20%; /*сколько % от всего доступного места занимает карточка*/
 }
 
 .contacts img{
@@ -111,10 +122,7 @@
 
 .menu-contacts{
   text-align: right;
-
 }
-
-
 
 
 .bottom{

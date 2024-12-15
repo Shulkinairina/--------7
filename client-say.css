@@ -3,6 +3,7 @@
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
+    background-color: #F7F2EA;
     border: 3px solid blue;
 }
 .title-say {
@@ -20,9 +21,9 @@
     row-gap: 40px;
     column-gap: 58px;
     margin-bottom: 60px;
-    background-color: #F7F2EA;
-
 }
+
+
 .say {
     display: flex;
     flex-direction: column;
