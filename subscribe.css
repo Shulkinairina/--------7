@@ -3,10 +3,14 @@
 .subscribe {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 50px 20px;
+  padding: 50px;
   outline: 3px solid blue;  
   background-size: auto;
-  background-color: #F7F2EA;  
+  background-color: #F7F2EA; 
+  background-image: url("./images/subscribe/tea\ 1.png"); 
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position-x: right;    
 }
 
 .title-want {  
@@ -14,12 +18,13 @@
   font-size: 40px;
   font-weight: 400;
   line-height: 1.2;
-  text-align: left;
+  text-align: center;
   margin: 0 0 20px 0;
 }
 
 .subscription {
   display: flex; 
+  flex-wrap: wrap;
   margin: 10px;   
   row-gap: 40px;
   column-gap: 58px;
@@ -67,6 +72,15 @@
 .checkbox {
   margin-right: 8px;
 }
+
+@media (max-width: 999.98px) {
+  .subscription {
+      flex-direction: column;
+      padding: 50px;
+  }
+}
+
+
 
 
 

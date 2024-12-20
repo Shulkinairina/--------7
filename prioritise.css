@@ -15,7 +15,7 @@
   }
 
 .conditions{
-  display: flex; 
+  display: flex;  
   justify-content: space-evenly; 
   justify-items: center;
   margin-bottom: 50px;
@@ -46,10 +46,30 @@
   text-align: left;
 }
 
-
 .vector{
   height: 60px;
   width: 60px;
   justify-content: center;
   margin-top:20px;
+}
+
+
+
+@media (max-width: 999.98px) {
+  .conditions {  
+    flex-wrap: wrap;    
+    padding: 0 44px;
+  }
+}
+
+
+@media (max-width: 479.98px) {
+  .conditions {
+  padding: 0 25px;
+  }
+
+  .condition {
+      flex-direction: column;
+  }
+  
 }

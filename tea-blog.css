@@ -108,7 +108,7 @@
     }
 }
 
-@media (max-width: 669.98px) {
+@media (max-width: 767.98px) {
     .cards {
         padding: 0;
     }
@@ -118,7 +118,7 @@
     }
 }
 
-@media (max-width: 539.98px) {
+@media (max-width: 479.98px) {
     .cards {
         padding: 0 25px;
     }
