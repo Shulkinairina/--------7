@@ -4,8 +4,7 @@
 .top {  
   max-width: 1240px;
   margin: 0 auto;
-  padding: 20px 20px;
-  outline: 3px solid blue;  
+  padding: 20px 20px; 
   display: flex;
   justify-content: space-between;
 }

@@ -4,7 +4,6 @@
   max-width: 1240px;
   margin: 0 auto;
   padding: 50px;
-  outline: 3px solid blue;  
   background-size: auto;
   background-color: #F7F2EA; 
   background-image: url("./images/subscribe/tea\ 1.png"); 
@@ -25,10 +24,11 @@
 .subscription {
   display: flex; 
   flex-wrap: wrap;
+  justify-content: center;
   margin: 10px;   
   row-gap: 40px;
-  column-gap: 58px;
-  margin-bottom: 10px; /*добавляет отступ для следущего элеманта*/
+  column-gap: 58px; 
+  margin: 50px auto 0;
 }
 
 .form {
@@ -50,11 +50,15 @@
   text-align: left;
 }
 
-.placeholder{
+.placeholder{ 
   display: flex;
   align-items: center;  
 }
+.placeholde-email{
+  min-width: 50%;
+}
 .join {
+  width: 10%;
   background: #FFFFFF;
   color: #151618;
   border: 1px solid #151618;
@@ -63,23 +67,33 @@
   margin-left: 20px;
   display: flex;
   cursor: pointer; /* "палец" при наведении курсора */
+  transition: all 0.5s ease;
 }
 
 .checkbox-label {
   display: flex;
-  align-items: center;
+  align-items:start;
 }
 .checkbox {
   margin-right: 8px;
 }
 
+
 @media (max-width: 999.98px) {
   .subscription {
-      flex-direction: column;
-      padding: 50px;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+    gap: 60px;
   }
 }
 
+@media (max-width: 479.98px) {
+  .subscription {
+    margin-top: 30px;
+    gap: 30px;
+  }
+}
 
 
 

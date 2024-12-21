@@ -1,9 +1,9 @@
 .explore {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 50px 20px;
-  outline: 3px solid blue;  
+  padding: 50px 20px;  
 }
+
 .title-explore {  
   font-size: 40px;
   font-weight: 400;
