@@ -114,9 +114,7 @@
   flex-basis: 20%; /*сколько % от всего доступного места занимает карточка*/
 }
 
-.contacts img{
-  margin: 10px;
-}
+
 
 .title-contacts{
   font-size: 24px;
@@ -127,17 +125,55 @@
   
 }
 
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.container-contacts{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;    
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.logo-cont{
+  display: flex;
+  align-items: center;
+}
+
+.cup{
+  display: flex;
+  flex-direction: column;
+}
+
+
 .menu-contacts{
   text-align: right;
 }
 
 
 .bottom{
-  justify-content: flex-end;
-  align-self: flex-end;
-  align-self: stretch;
-  flex: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
 }
+
+.tealuxe {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: left;
+}
+
+
 
 
 @media (max-width: 479.98px) {    
