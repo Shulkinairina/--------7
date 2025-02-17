@@ -1,8 +1,9 @@
 .footer {
-  max-width: 1240px;
+  /*max-width: 1240px;*/
   margin: 0 auto;
   padding: 20px;  
   background-color: #F7F2EA;  
+  padding: 60px calc(50% - 600px);
 }
 
 
@@ -164,8 +165,12 @@
 
 
 .menu-contacts{ 
-  margin-top: 40px;
-  text-align: right;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: flex-end;
+  /*margin-top: 40px;
+  text-align: right;*/
 }
 
 

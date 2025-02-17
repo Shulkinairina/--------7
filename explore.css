@@ -1,7 +1,7 @@
 .explore {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 50px 0;  
+  padding: 50px 0px;  
 }
 
 .title-explore {  
@@ -28,8 +28,8 @@
   justify-content: center;
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 20%;    
-  
+  flex-basis: calc(20% - 10px); 
+  align-items: center;
 }
 
 .tea img {

@@ -1,7 +1,7 @@
 
 
 .subscribe {
-  max-width: 1240px;
+  /*max-width: 1240px;*/
   margin: 0 auto;
   padding: 50px;
   background-size: auto;
@@ -9,7 +9,8 @@
   background-image: url("./images/subscribe/tea\ 1.png"); 
   background-size: 40%;
   background-repeat: no-repeat;
-  background-position-x: right;    
+  background-position-x: right; 
+  padding: 60px calc(50% - 600px);   
 }
 
 .title-want {  
